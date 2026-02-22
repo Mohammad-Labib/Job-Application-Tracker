@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Appllication Tracker</title>
+
+    <!-- taildwin+daisy -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"                 integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        *{
+            font-family: "Geist", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="w-[80%] mx-auto py-6">
+        <h2 class="text-2xl font-bold my-5">Job Application Tracker</h2>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-[#FFFFFF] p-4 rounded-[8px] shadow">
+                <p>Total</p>
+                <p id="total" class="text-[24px] font-bold text-[#002C5C]">0</p>
+            </div>
+
+            <div class="  bg-[#FFFFFF] p-4  rounded-[8px] shadow">
+                <p>Interview</p>
+                <p id="interview" class="text-[#10B981] font-bold text-[24px]">0</p>
+            </div>
+
+            <div class=" p-4 rounded-[8px] shadow">
+                <p>Rejected</p>
+                <p id="rejected" class="text-[#EF4444] font-bold text-[24px]">0</p>
+            </div>
+        </div>
+    </header>
+
+    <hr class="my-5 w-[80%] mx-auto text-[#E6E7E9]">
+
+    <main class="w-[80%] mx-auto">
+        <div class="flex justify-between mb-4">
+            <p class="font-semibold text-[20px]">Available Jobs</p>
+            <p class="font-medium font-4 text-[#64748B]">8jobs</p>
+        </div>
+        <div class="">
+            <button class="btn btn-primary rounded-[4px] px-10 py-2 shadow" id="all-filter-btn">All</button>
+            <button class="bg-[#FFFFFF] rounded-[4px] px-5 py-2 shadow" id="interview-filter-btn">Interview</button>
+            <button class="bg-[#FFFFFF] rounded-[4px] px-5 py-2 shadow" id="rejected-filter-btn">Rejected</button>
+        </div>
+
+    </main>
+
+
+
+    <section class="w-[80%] mx-auto pt-4">
+        <div class="shadow p-6">
+            <div>
+                <div class=" flex justify-between items-start">
+                <div>
+                    <h1 class="text-[#002C5C] text-2xl font-semibold">Mobile First Corp</h1>
+                    <p class="text-[#64748B] font-normal">React Native Developer</p>
+                </div>
+            <div class="btn-part">
+            <button class="shadow p-2 rounded-full text-2xl "><i class="fa-regular fa-trash-can"></i></button>
+            </div>
+      </div>
+    
+                    <ul class="flex gap-8 text-[#64748B] py-5">
+                        <li>Remote</li>
+                        <li class="list-disc ">Full-time</li>
+                        <li class="list-disc "> $130,000 - $175,000</li>
+                    </ul>
+            </div>
+            <div>
+                <button class="bg-[#EEF4FF] text-[#002C5C] font-medium  rounded-[4px] px-5 py-2 shadow" id="rejected-filter-btn">Not Applied</button>
+                <p class="py-5">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <button class="btn btn-outline btn-secondary ">INTERVIWE</button>
+                <button class="btn btn-outline btn-success"> REJECTED</button>
+            
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section class=" w-[80%] mx-auto pt-8">
+        <h2>part two runing now</h2>
+    </section>
+
+    
+    
+</body>
+</html>
