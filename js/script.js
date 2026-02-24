@@ -40,3 +40,25 @@ function toggleStyle (id){
 // let card1 = document.getElementById('noApplied-filter-btn');
 // card1.innerText = "hello labib"
 
+document.getElementById('btn-interviwe-click')
+.addEventListener('click', function(){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click')
+    // console.log(changeN)
+    changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejejcted-click')
+.addEventListener('click', function(){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
+
+
