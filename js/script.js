@@ -50,7 +50,7 @@ document.getElementById('btn-interviwe-click')
 
 })
 
-document.getElementById('btn-rejejcted-click')
+document.getElementById('btn-rejected-click')
 .addEventListener('click', function(){
     // console.log('btn clicked')
 
@@ -59,6 +59,29 @@ document.getElementById('btn-rejejcted-click')
     changeN.innerText = 'REJECTED';
 
 })
+
+
+
+document.getElementById('btn-interviwe-click-2')
+.addEventListener('click', function(){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-3')
+    // console.log(changeN)
+    changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-1')
+.addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-3')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
 
 
 
