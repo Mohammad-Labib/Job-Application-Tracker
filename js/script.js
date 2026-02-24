@@ -14,8 +14,8 @@ const mainContainer = document.querySelector('main');
 
 function countNumber (){
     total.innerText = allCard.children.length;
-    interview.innerText = interviewList.length;
-    rejected.innerText = rejectedList.length;
+    // interview.innerText = interviewList.length;
+    // rejected.innerText = rejectedList.length;
 
 }
 countNumber();
@@ -37,6 +37,6 @@ function toggleStyle (id){
     selected.classList.add('bg-[#3B82F6]', 'text-white');
 }
 
+// let card1 = document.getElementById('noApplied-filter-btn');
+// card1.innerText = "hello labib"
 
-let card1 = document.getElementById('noApplied-filter-btn');
-card1.innerText = "hello labib"
