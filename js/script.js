@@ -50,8 +50,7 @@ document.getElementById('btn-interviwe-click')
 
 })
 
-document.getElementById('btn-rejected-click')
-.addEventListener('click', function(){
+document.getElementById('btn-rejected-click').addEventListener('click', function(){
     // console.log('btn clicked')
 
     const changeN = document.getElementById('rejected-filter-click')
@@ -60,10 +59,9 @@ document.getElementById('btn-rejected-click')
 
 })
 
+// 2nd
 
-
-document.getElementById('btn-interviwe-click-2')
-.addEventListener('click', function(){
+document.getElementById('btn-interviwe-click-2').addEventListener('click', function(){
     // console.log('btn clicked')
 
     const changeN = document.getElementById('rejected-filter-click-3')
@@ -72,11 +70,113 @@ document.getElementById('btn-interviwe-click-2')
 
 })
 
-document.getElementById('btn-rejected-click-1')
-.addEventListener('click', function (){
+document.getElementById('btn-rejected-click-1').addEventListener('click', function (){
     // console.log('btn clicked')
 
     const changeN = document.getElementById('rejected-filter-click-3')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
+
+// 3rd
+
+document.getElementById('btn-interviwe-click-5').addEventListener('click', function(){
+    const changeN = document.getElementById('rejected-filter-click-4')
+      changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-6').addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-4')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+// 4t btn
+
+document.getElementById('btn-interviwe-click-8').addEventListener('click', function(){
+    const changeN = document.getElementById('rejected-filter-click-7')
+      changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-9').addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-7')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
+// 4t btn
+
+document.getElementById('btn-interviwe-click-11').addEventListener('click', function(){
+    const changeN = document.getElementById('rejected-filter-click-10')
+      changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-12').addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-10')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
+// 5th btn
+
+document.getElementById('btn-interviwe-click-14').addEventListener('click', function(){
+    const changeN = document.getElementById('rejected-filter-click-13')
+      changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-15').addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-13')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
+// 6th btn
+
+document.getElementById('btn-interviwe-click-17').addEventListener('click', function(){
+    const changeN = document.getElementById('rejected-filter-click-16')
+      changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-18').addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-16')
+    // console.log(changeN)
+    changeN.innerText = 'REJECTED';
+
+})
+
+
+// 7th btn
+
+document.getElementById('btn-interviwe-click-20').addEventListener('click', function(){
+    const changeN = document.getElementById('rejected-filter-click-19')
+      changeN.innerText = 'INTERVIWE';
+
+})
+
+document.getElementById('btn-rejected-click-21').addEventListener('click', function (){
+    // console.log('btn clicked')
+
+    const changeN = document.getElementById('rejected-filter-click-19')
     // console.log(changeN)
     changeN.innerText = 'REJECTED';
 
