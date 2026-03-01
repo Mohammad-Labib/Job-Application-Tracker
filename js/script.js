@@ -40,6 +40,33 @@ function toggleStyle (id){
 // let card1 = document.getElementById('noApplied-filter-btn');
 // card1.innerText = "hello labib"
 
+const interviewElement = document.getElementById('interview');
+const rejectedElement = document.getElementById('rejected-btn');
+const btnInterviewClick = document.getElementById('btn-interviwe-click');
+const btnRejectedClick = document.getElementById('btn-rejected-click');
+
+let counter = 0;
+let rejecte = 0;
+
+btnInterviewClick.addEventListener('click', function (){
+   counter++;
+//    if(rejecte > 0){
+//         rejecte--;
+//    }
+   interviewElement.innerText = counter;
+//    rejectedElement.innerText = counter;
+})
+
+btnRejectedClick.addEventListener('click', function(){
+
+    if(counter > 0){
+        counter--;
+        rejecte++;
+    }
+   interviewElement.innerText = counter;
+   rejectedElement.innerText = rejecte;
+})
+
 document.getElementById('btn-interviwe-click')
 .addEventListener('click', function(){
     // console.log('btn clicked')
